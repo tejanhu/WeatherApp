@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Weatherapp.jnlp">
+  <information>
+    <title>Weatherapp</title>
+    <vendor>sm312</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Weatherapp.jar" size="15846135" download="eager" />
+    <jar href="lib/ForecastIOLib-1.5.2-jar-with-dependencies.jar" size="44313" download="eager" />
+    <jar href="lib/MigLayoutFX2-1.0-SNAPSHOT.jar" size="15710" download="eager" />
+    <jar href="lib/controlsfx-8.20.8.jar" size="957666" download="eager" />
+    <jar href="lib/geocoder-java-0.16-javadoc.jar" size="117244" download="eager" />
+    <jar href="lib/geocoder-java-0.16.jar" size="29181" download="eager" />
+    <jar href="lib/google-places-api-java.jar" size="1401975" download="eager" />
+    <jar href="lib/gtranslateapi-1.0.jar" size="11086" download="eager" />
+    <jar href="lib/jl1.0.jar" size="105446" download="eager" />
+    <jar href="lib/miglayout-3.7.2.jar" size="198165" download="eager" />
+    <jar href="lib/miglayout-javafx-5.1-20150116.230038-18.jar" size="20444" download="eager" />
+    <jar href="lib/openjfx-dialogs-1.0.2.jar" size="148557" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Weatherapp" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="weatherapp.Weatherapp"  name="Weatherapp" />
+  <update check="always"/>
+</jnlp>

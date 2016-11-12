@@ -1,0 +1,18 @@
+#topy{
+-fx-background-image: url("WP.jpeg");
+/*-fx-background-repeat: stretch;*/
+-fx-background-size: cover;
+    
+}
+
+#boty{
+-fx-background-color:#3A3965;
+    
+    
+}
+.separator *.line { 
+/*-fx-border-style: solid;*/
+-fx-border-width: 0.25px;
+
+-fx-opacity:0.1;
+}

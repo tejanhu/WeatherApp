@@ -1,0 +1,96 @@
+#back{
+-fx-background-image: url("WL.jpg");
+
+
+}
+#bot{
+  -fx-background-color:#3A3965;
+
+ 
+  
+
+
+}
+#textforreading{
+    -fx-text-fill:#CDD5E8;
+    -fx-text-alignment: center;
+    -fx-font-weight:600;
+}
+#sepy{
+    -fx-border-width:10; 
+    -fx-border-height:137;
+    -fx-opacity:0.1;
+}
+#bt{  
+  -fx-background-color:#819AD0;
+  
+    
+}
+
+#timy{
+-fx-text-fill:#FFFFFF;    
+  
+  
+}
+
+.boton{
+  -fx-border-style: none;  
+}
+
+.separator *.line { 
+/*-fx-border-style: solid;*/
+-fx-border-width: 0.25px;
+
+-fx-opacity:0.1;
+}
+
+#meny{
+ /*-fx-background-image: url("menu.png");*/   
+ -fx-graphic: url(menu.png);   
+/*-fx-opacity:0.7;*/
+-fx-border-radius:0;
+-fx-border-style:none;
+-fx-background-color:transparent;
+    
+}
+/*
+menu-button:selected{
+    -fx-background-color:red;
+    
+}*/
+#meny:selected{
+    -fx-background-color:gray;
+    
+}
+
+#tipy{
+  -fx-background-color:#849cce;
+ -fx-border-radius: 0;
+ -fx-focus-color:red;
+-fx-text-fill:#FFFFFF;    
+}
+
+#tipy:focused{
+    
+    -fx-background-insets: 5, 5, 1, 2;
+}
+
+#latab{
+    -fx-background-color: blue;
+    -fx-text-fill:#FFFFFF;    
+    
+    
+}
+
+#ct{
+  -fx-text-fill:#CDD5E8;
+-fx-opacity:0.75;
+    
+    
+}
+
+#locy{
+    
+    -fx-text-fill:c2d7dd;
+    
+}

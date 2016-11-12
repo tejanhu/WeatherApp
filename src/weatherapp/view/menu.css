@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12-Mar-2015, 17:57:09
+    Author     : Samsu
+*/
+
+#rightcont{
+    -fx-background-image: url("mrcb.png");
+    /*-fx-background-position: center bottom;*/
+    -fx-background-position: center center;
+}
+#leftcont{
+    -fx-background-image: url("menul.jpg");
+    -fx-background-color: green;
+}
+#button{
+ -fx-border-radius:0;
+-fx-border-style:solid;
+-fx-background-color:transparent;
+-fx-border-top:1;
+}

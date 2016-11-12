@@ -1,0 +1,19 @@
+#mainy{-fx-background-color:#3a3965;}
+#right{-fx-background-color:#3a3965;}
+#left{-fx-background-color:#c2d7dd;}
+#bottom{-fx-background-color:#7296b0;}
+#settings_col{-fx-text-fill:#c2d7dd;}
+#meny{
+ /*-fx-background-image: url("menu.png");*/   
+ -fx-graphic: url(menu.png);   
+/*-fx-opacity:0.7;*/
+-fx-border-radius:0;
+-fx-border-style:none;
+-fx-background-color:transparent;
+    
+}
+
+#meny:selected{
+    -fx-background-color:gray;
+    
+}
